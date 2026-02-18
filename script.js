@@ -1,14 +1,10 @@
 function minDate(dates) {
   //write you code here
-	let min = arr[0];
+	if (!dates || dates.length === 0) return null;
 
-  for (let num of arr) {
-    if (num < min) {
-      min = num;
-    }
-  }
-
-  return [min];
+  return dates.reduce((min, current) => {
+    return current < min ? current : min;
+  });
 }
 
 // Do not change the code
