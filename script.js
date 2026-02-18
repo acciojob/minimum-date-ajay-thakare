@@ -1,5 +1,14 @@
 function minDate(dates) {
   //write you code here
+	let min = arr[0];
+
+  for (let num of arr) {
+    if (num < min) {
+      min = num;
+    }
+  }
+
+  return min;
 }
 
 // Do not change the code
