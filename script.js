@@ -8,7 +8,7 @@ function minDate(dates) {
     }
   }
 
-  return min;
+  return [min];
 }
 
 // Do not change the code
